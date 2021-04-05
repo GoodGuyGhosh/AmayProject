@@ -1,0 +1,87 @@
+/*Typography*/
+html {font: 16px "Arial", sans-serif;}
+/*Layout*/
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+*,
+*:before,
+*:after {box-sizing: border-box;}
+.wrapper {height: auto;}
+section {padding: 1em 0;}
+ul {
+  float: right;
+  margin-right: 1%;
+  padding: 0;
+  list-style-type: none;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+}
+ul li a:hover{
+  background-color: #fff;
+  color: #222;
+}
+.TopPanel{
+  background-color: black;
+  padding-bottom: 1%;
+}
+.logo img{
+  float: center;
+  width: auto;
+  height: auto;
+}
+.GGWP{
+  float: left;
+  color: #fff;
+  font: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 1%;
+}
+.slideshow{
+  height: 500px;
+  width: auto;
+}
+.slideshow-container{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+.footer-outer{
+  color: #fff;
+  padding: 1%;
+}
+.BGss{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../Desktop/amay/stadium2.jpg');
+  width: 100%;
+  height: 100vh;
+  background-position: center ;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.Col1Img{
+  width: auto;height: 250px ;margin-left: 1%;
+}
+
